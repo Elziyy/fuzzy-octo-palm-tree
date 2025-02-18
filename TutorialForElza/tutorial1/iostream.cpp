@@ -1,9 +1,9 @@
-// To do anything besides declaring variables and functions, we need to include
-// libraries. Libraries contain functions, by including them you can actually
-// make use of those function.
+// To do anything besides declaring variables and functions (and if statements
+// are loops n stuff), we need to include libraries. Libraries contain
+// functions, by including them you can actually make use of those function.
 
-// Iostream, short for input-output-stream allows for the most basic stuff, like
-// outputting and inputting stuff.
+// Iostream, short for input-output-stream allows for outputting and inputting
+// stuff.
 #include <iostream>
 
 int main() {
