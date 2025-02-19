@@ -26,9 +26,14 @@ int main() {
   bool bool1 = true;
   bool bool2 = false;
 
+  // If you think that your variable deserves more memory, use the word long.
+  // These variables can now hold bigger numbers or numbers with more precision!
+  long int biggerInteger;
+  long double biggerDouble;
+
   // A char stores a prespecified number if characters. These characters are
-  // stored in an array. A string is essentially an array of characters, but it
-  // can be sized much easier.
+  // stored in an array. A string is essentially an array of characters, but
+  // more about arrays later.
   char char1[100] = "This is a piece of text. The unused chars are marked as "
                     "none, but thay can be used later.";
   // When no lenght is specified, it will be a single character.
